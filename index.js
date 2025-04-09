@@ -31,12 +31,12 @@ if (process.env.NODE_ENV === 'production') {
 app.use(cookieParser())
 app.use(compression())
 
-if (process.env.NODE_ENV === 'production') {
-    //safety
-    app.use(helmet({
-        contentSecurityPolicy: false,
-    }))
-}
+// if (process.env.NODE_ENV === 'production') {
+//     //safety
+//     app.use(helmet({
+//         contentSecurityPolicy: false,
+//     }))
+// }
 
 app.use(express.static(path.join(path.dirname(fileURLToPath(import.meta.url)), "public/files"), { etag : false, maxAge: "24h" }));
 app.use(express.json())
