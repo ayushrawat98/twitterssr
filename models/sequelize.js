@@ -4,6 +4,6 @@ import { Sequelize } from "sequelize"
 
 export const sequelize = new Sequelize({
     dialect: 'sqlite',
-    storage: 'khichdi.db',
+    storage: 'xbharat.db',
     logging : false
 })

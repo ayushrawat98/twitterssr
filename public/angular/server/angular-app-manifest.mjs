@@ -38,7 +38,7 @@ export default {
   ],
   "src/Components/main/main.component.ts": [
     {
-      "path": "chunk-GHKCYHFL.js",
+      "path": "chunk-RJDY6BBC.js",
       "dynamicImport": false
     },
     {
@@ -88,8 +88,8 @@ export default {
   ]
 },
   assets: {
-    'index.csr.html': {size: 996, hash: 'e3edf047b8dea39bac84e8a7e4e96877c00d2fa2720f319b2d81e383201c4b50', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1220, hash: 'beec53b8a66cce5506dc7013c96f7e6c773984d053b08ff27761fbdd92b135fe', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 996, hash: '67a6e0d61602b02214cea9523dcba1807e3e97719caa967326c33a027b425076', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1220, hash: '5fd129d94df81aea61c91bbdcb5f12dd507499f3ef0bcb9e7c01923532071b84', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
     'styles-QBK773LE.css': {size: 983, hash: 'ODbyFzpoQ/o', text: () => import('./assets-chunks/styles-QBK773LE_css.mjs').then(m => m.default)}
   },
 };
