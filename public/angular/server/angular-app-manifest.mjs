@@ -8,88 +8,88 @@ export default {
   entryPointToBrowserMapping: {
   "src/Components/login/login.component.ts": [
     {
-      "path": "chunk-YZUA553N.js",
+      "path": "chunk-HTUOXGMG.js",
       "dynamicImport": false
     },
     {
-      "path": "chunk-4LILKTLM.js",
+      "path": "chunk-GR6YHOP3.js",
       "dynamicImport": false
     }
   ],
   "src/Components/register/register.component.ts": [
     {
-      "path": "chunk-BI7TAGH5.js",
+      "path": "chunk-ARCPNDBR.js",
       "dynamicImport": false
     },
     {
-      "path": "chunk-4LILKTLM.js",
+      "path": "chunk-GR6YHOP3.js",
       "dynamicImport": false
     }
   ],
   "src/Components/notification/notification.component.ts": [
     {
-      "path": "chunk-4RKN7UXT.js",
+      "path": "chunk-O6CHSINW.js",
       "dynamicImport": false
     },
     {
-      "path": "chunk-RN4H7MPU.js",
+      "path": "chunk-T6DLWQDX.js",
       "dynamicImport": false
     }
   ],
   "src/Components/main/main.component.ts": [
     {
-      "path": "chunk-2PPIG3A3.js",
+      "path": "chunk-TZBOJEDD.js",
       "dynamicImport": false
     },
     {
-      "path": "chunk-OLETZS33.js",
+      "path": "chunk-G25BJCFI.js",
       "dynamicImport": false
     },
     {
-      "path": "chunk-4LILKTLM.js",
+      "path": "chunk-GR6YHOP3.js",
       "dynamicImport": false
     },
     {
-      "path": "chunk-LEKSXHYF.js",
+      "path": "chunk-EEZQA65K.js",
       "dynamicImport": false
     }
   ],
   "src/Components/profile/profile.component.ts": [
     {
-      "path": "chunk-GVWWJ5BS.js",
+      "path": "chunk-SDEETUKF.js",
       "dynamicImport": false
     },
     {
-      "path": "chunk-RN4H7MPU.js",
+      "path": "chunk-T6DLWQDX.js",
       "dynamicImport": false
     },
     {
-      "path": "chunk-LEKSXHYF.js",
+      "path": "chunk-EEZQA65K.js",
       "dynamicImport": false
     }
   ],
   "src/Components/postexpanded/postexpanded.component.ts": [
     {
-      "path": "chunk-YRUJEFGP.js",
+      "path": "chunk-K5DX6Y3M.js",
       "dynamicImport": false
     },
     {
-      "path": "chunk-OLETZS33.js",
+      "path": "chunk-G25BJCFI.js",
       "dynamicImport": false
     },
     {
-      "path": "chunk-4LILKTLM.js",
+      "path": "chunk-GR6YHOP3.js",
       "dynamicImport": false
     },
     {
-      "path": "chunk-LEKSXHYF.js",
+      "path": "chunk-EEZQA65K.js",
       "dynamicImport": false
     }
   ]
 },
   assets: {
-    'index.csr.html': {size: 996, hash: 'd81906d0f1883fb0d1c8b40344a2b5a5a45e352782cf4a24cd788b4c6d3fb383', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1220, hash: '4f3a7bce3dd86ea4de66f67f0b4ba1d788a18ba44486e3ed123042ac05308f6a', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 996, hash: '324afaa500af299eb15e732f5babf5ab17245f890b7870acef360c599082aabe', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1220, hash: '932b08fe8cb602688c1085ea2af460fc8fa6917958da7d05a0ae227f03101a62', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
     'styles-QBK773LE.css': {size: 983, hash: 'ODbyFzpoQ/o', text: () => import('./assets-chunks/styles-QBK773LE_css.mjs').then(m => m.default)}
   },
 };
