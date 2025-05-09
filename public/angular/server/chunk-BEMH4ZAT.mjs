@@ -1,2 +1,0 @@
-import './polyfills.server.mjs';
-import{Q as n,_a as o,h as i,k as e}from"./chunk-5XPW4WTW.mjs";var a={production:!0,baseUrl:"https://khichdi.life:3000"};var s=class r{constructor(t){this.http=t}userdata=n(null);baseUrl=a.baseUrl;login(t){return this.http.post(this.baseUrl+"/api/auth/login",t)}register(t){return this.http.post(this.baseUrl+"/api/auth/register",t)}static \u0275fac=function(p){return new(p||r)(e(o))};static \u0275prov=i({token:r,factory:r.\u0275fac,providedIn:"root"})};export{a,s as b};
