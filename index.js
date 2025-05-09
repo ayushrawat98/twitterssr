@@ -16,17 +16,17 @@ import cookieParser from "cookie-parser"
 const app = express()
 dotenv.config()
 sync()
-// if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'production') {
     app.use(cors({
         origin : 'https://khichdi.life',
         credentials : true
     }))
-// }else{
-    // app.use(cors({
-    //     origin : 'http://localhost:4200',
-    //     credentials : true
-    // }))
-// }
+}else{
+    app.use(cors({
+        origin : 'http://localhost:4200',
+        credentials : true
+    }))
+}
 
 // const allowedOrigins = [
 //   'http://localhost:4200',
