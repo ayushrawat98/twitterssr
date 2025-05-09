@@ -16,17 +16,17 @@ import cookieParser from "cookie-parser"
 const app = express()
 dotenv.config()
 sync()
-if (process.env.NODE_ENV === 'production') {
-    app.use(cors({
-        origin : 'https://khichdi.life',
-        credentials : true
-    }))
-}else{
+// if (process.env.NODE_ENV === 'production') {
+//     app.use(cors({
+//         origin : 'https://khichdi.life',
+//         credentials : true
+//     }))
+// }else{
     app.use(cors({
         origin : 'http://localhost:4200',
         credentials : true
     }))
-}
+// }
 
 app.use(cookieParser())
 app.use(compression())
@@ -45,18 +45,18 @@ app.use('/api/post', PostRouter)
 app.use('/api/user', UserRouter)
 
 // start server
-if (process.env.NODE_ENV === 'development') {
+// if (process.env.NODE_ENV === 'development') {
     // create server local
     app.listen(3000, (ex) => {
         console.log(process.env.PORT)
     })
-} else if (process.env.NODE_ENV === 'production') {
-    const options = {
-        key: fs.readFileSync('/etc/letsencrypt/live/khichdi.life/privkey.pem'),
-        cert: fs.readFileSync('/etc/letsencrypt/live/khichdi.life/fullchain.pem')
-    };
+// } else if (process.env.NODE_ENV === 'production') {
+//     const options = {
+//         key: fs.readFileSync('/etc/letsencrypt/live/khichdi.life/privkey.pem'),
+//         cert: fs.readFileSync('/etc/letsencrypt/live/khichdi.life/fullchain.pem')
+//     };
 
-    https.createServer(options, app).listen(3000, () => {
-        console.log('API server running on https://khichdi.life');
-    });
-}
+//     https.createServer(options, app).listen(3000, () => {
+//         console.log('API server running on https://khichdi.life');
+//     });
+// }

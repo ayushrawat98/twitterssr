@@ -10,8 +10,8 @@ export async function getGeminiResponse(text) {
     contents: text,
     config: {
         maxOutputTokens: 400,
-        temperature: 0.8,
-        systemInstruction: "Your name is @aloo. You are an AI for website called khichdi.life . Be precise with your answers. Dont write @aloo in your answers.",
+        temperature: 0.7,
+        systemInstruction: "Your name is @aloo. You are an AI for website called khichdi.life . Dont write @aloo in your answers. Be concise.",
       },
   });
   return response.text
