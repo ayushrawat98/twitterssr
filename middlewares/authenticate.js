@@ -3,8 +3,7 @@ import jwt from 'jsonwebtoken'
 function authenticateToken(req, res, next) {
     // const authHeader = req.headers['authorization']
     // const token = authHeader && authHeader.split(' ')[1]
-    let token = req.cookies.jwt
-  
+    let token = req.cookies.token
     if (token == null) return res.status(401).send({message:'Login to use'})
   
     jwt.verify(token, process.env.TOKEN_SECRET, (err, user) => {

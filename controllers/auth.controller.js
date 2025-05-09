@@ -11,7 +11,9 @@ export async function loginUser(req, res, next) {
         if (!(await bcrypt.compare(req.body.password, User.password))) {
             return res.status(400).json({ message: "Password doesn't match" })
         } else {
-            return res.status(200).json({ token: generateToken({ id: User.id, username: User.username }) })
+            let token = generateToken({ id: User.id, username: User.username }) 
+            return res.cookie('token',token, {maxAge : 900000, httpOnly : true}).status(200).json({ token : token })
+            // return res.status(200).json({ token: generateToken({ id: User.id, username: User.username }) })
         }
     } else {
         return res.status(404).json({ message: "User not found" })
