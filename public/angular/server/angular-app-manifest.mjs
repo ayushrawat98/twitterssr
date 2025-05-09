@@ -38,11 +38,11 @@ export default {
   ],
   "src/Components/main/main.component.ts": [
     {
-      "path": "chunk-FBEUIYAB.js",
+      "path": "chunk-IIH6AE2M.js",
       "dynamicImport": false
     },
     {
-      "path": "chunk-P7OUH64A.js",
+      "path": "chunk-JD6RNMT6.js",
       "dynamicImport": false
     },
     {
@@ -50,13 +50,13 @@ export default {
       "dynamicImport": false
     },
     {
-      "path": "chunk-OP3UICYC.js",
+      "path": "chunk-ZVZ6XC66.js",
       "dynamicImport": false
     }
   ],
   "src/Components/profile/profile.component.ts": [
     {
-      "path": "chunk-JCG6WZ76.js",
+      "path": "chunk-6XAY7PY6.js",
       "dynamicImport": false
     },
     {
@@ -64,17 +64,17 @@ export default {
       "dynamicImport": false
     },
     {
-      "path": "chunk-OP3UICYC.js",
+      "path": "chunk-ZVZ6XC66.js",
       "dynamicImport": false
     }
   ],
   "src/Components/postexpanded/postexpanded.component.ts": [
     {
-      "path": "chunk-L64VR2XL.js",
+      "path": "chunk-VZZAC6YK.js",
       "dynamicImport": false
     },
     {
-      "path": "chunk-P7OUH64A.js",
+      "path": "chunk-JD6RNMT6.js",
       "dynamicImport": false
     },
     {
@@ -82,14 +82,14 @@ export default {
       "dynamicImport": false
     },
     {
-      "path": "chunk-OP3UICYC.js",
+      "path": "chunk-ZVZ6XC66.js",
       "dynamicImport": false
     }
   ]
 },
   assets: {
-    'index.csr.html': {size: 996, hash: 'e3f27cd30ca14ce3edb9fdbc0d0e6e4a8b4dd83822e649a21ca602159cb6dad0', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1220, hash: 'bff24de23dbfbb651ef9cb535a95fa2326a59b1227c5e26a8371355d1c802df1', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 996, hash: '17e66a4e633b43d18ee221ad72eb1f32286b70a880e3a854803f6bc61df99dea', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1220, hash: '631470591234b204980279d516a00b81c0374798b21d930717ac3812a494cd87', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
     'styles-QBK773LE.css': {size: 983, hash: 'ODbyFzpoQ/o', text: () => import('./assets-chunks/styles-QBK773LE_css.mjs').then(m => m.default)}
   },
 };
