@@ -38,7 +38,7 @@ app.use(compression())
 //     }))
 // }
 
-app.use(express.static(path.join(path.dirname(fileURLToPath(import.meta.url)), "public/files"), { etag : false, maxAge: "24h" }));
+// app.use(express.static(path.join(path.dirname(fileURLToPath(import.meta.url)), "public/files"), { etag : false, maxAge: "24h" }));
 app.use(express.json())
 app.use('/api/auth', AuthRouter)
 app.use('/api/post', PostRouter)
