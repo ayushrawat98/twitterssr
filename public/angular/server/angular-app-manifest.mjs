@@ -88,8 +88,8 @@ export default {
   ]
 },
   assets: {
-    'index.csr.html': {size: 1091, hash: 'bc81b9214efbb59079d844e41c6a8d4b2bee45f441cb853b3fa42df90534d9a8', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1316, hash: '364134bc6b7f942583d81f53c13b526f9ddb548d56ac56452f98f05e218f8797', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 1387, hash: 'd9cea4aa23a1c1e33bae041296b2370cb5b7af03eb3e069abe2652682860d810', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1612, hash: '839201d609ed2b3f023a2329edfcb8d61b9adf49feb1dd54e89a0c8d3076ca13', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
     'styles-QBK773LE.css': {size: 983, hash: 'ODbyFzpoQ/o', text: () => import('./assets-chunks/styles-QBK773LE_css.mjs').then(m => m.default)}
   },
 };
