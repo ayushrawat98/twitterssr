@@ -88,8 +88,8 @@ export default {
   ]
 },
   assets: {
-    'index.csr.html': {size: 996, hash: '67a6e0d61602b02214cea9523dcba1807e3e97719caa967326c33a027b425076', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1220, hash: '5fd129d94df81aea61c91bbdcb5f12dd507499f3ef0bcb9e7c01923532071b84', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 1091, hash: 'bc81b9214efbb59079d844e41c6a8d4b2bee45f441cb853b3fa42df90534d9a8', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1316, hash: '364134bc6b7f942583d81f53c13b526f9ddb548d56ac56452f98f05e218f8797', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
     'styles-QBK773LE.css': {size: 983, hash: 'ODbyFzpoQ/o', text: () => import('./assets-chunks/styles-QBK773LE_css.mjs').then(m => m.default)}
   },
 };

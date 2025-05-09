@@ -5,6 +5,7 @@ export default `<!doctype html>
   <title>Khichdi</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="N41ZIcNlFQ4F_cTd_VU2dmiPUu03U-WKKoiHxkFNd7U"/>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="styles-QBK773LE.css"></head>
