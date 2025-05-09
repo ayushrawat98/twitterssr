@@ -17,10 +17,10 @@ const app = express()
 dotenv.config()
 sync()
 // if (process.env.NODE_ENV === 'production') {
-//     app.use(cors({
-//         origin : 'https://khichdi.life',
-//         credentials : true
-//     }))
+    app.use(cors({
+        origin : 'https://khichdi.life',
+        credentials : true
+    }))
 // }else{
     // app.use(cors({
     //     origin : 'http://localhost:4200',
@@ -28,22 +28,22 @@ sync()
     // }))
 // }
 
-const allowedOrigins = [
-  'http://localhost:4200',
-  'https://khichdi.life',
-  'https://www.khichdi.life'
-];
+// const allowedOrigins = [
+//   'http://localhost:4200',
+//   'https://khichdi.life',
+//   'https://www.khichdi.life'
+// ];
 
-app.use(cors({
-  origin: function (origin, callback) {
-    if (allowedOrigins.includes(origin)) {
-      return callback(null, true);
-    } else {
-      return callback(new Error('Not allowed by CORS'));
-    }
-  },
-  credentials: true
-}));
+// app.use(cors({
+//   origin: function (origin, callback) {
+//     if (allowedOrigins.includes(origin)) {
+//       return callback(null, true);
+//     } else {
+//       return callback(new Error('Not allowed by CORS'));
+//     }
+//   },
+//   credentials: true
+// }));
 
 app.use(cookieParser())
 app.use(compression())
