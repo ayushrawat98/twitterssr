@@ -2,20 +2,15 @@ export default `<!doctype html>
 <html lang="en" data-beasties-container="">
 <head>
   <meta charset="utf-8">
-  <title>Khichdi</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="N41ZIcNlFQ4F_cTd_VU2dmiPUu03U-WKKoiHxkFNd7U">
-
-  <meta name="description" content="Khichdi is a fast, simple, and Indian-focused microblogging platform to share thoughts, updates, and trends.">
-  <meta name="keywords" content="Khichdi, microblogging, India, social media, short posts, updates">
-  <meta name="author" content="Khichdi Team">
 
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <style>*{box-sizing:border-box}html,body{height:100%}body{margin:0;padding:0;font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;background-color:#14191f;color:#f5f5f5}</style><link rel="stylesheet" href="styles-QBK773LE.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-QBK773LE.css"></noscript></head>
 <body ngcm="">
   <app-root></app-root>
-<link rel="modulepreload" href="chunk-G5KA7DMQ.js"><link rel="modulepreload" href="chunk-6P4DJA2C.js"><script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-ESJQPDLL.js" type="module"></script></body>
+<link rel="modulepreload" href="chunk-G5KA7DMQ.js"><link rel="modulepreload" href="chunk-G6XVCMRK.js"><script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-XF3DEW5N.js" type="module"></script></body>
 </html>
 `;
