@@ -16,6 +16,6 @@ export default `<!doctype html>
 <style>*{box-sizing:border-box}html,body{height:100%}body{margin:0;padding:0;font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;background-color:#14191f;color:#f5f5f5}</style><link rel="stylesheet" href="styles-QBK773LE.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-QBK773LE.css"></noscript></head>
 <body ngcm="">
   <app-root></app-root>
-<link rel="modulepreload" href="chunk-G5KA7DMQ.js"><link rel="modulepreload" href="chunk-6P4DJA2C.js"><script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-WURO6VU7.js" type="module"></script></body>
+<link rel="modulepreload" href="chunk-G5KA7DMQ.js"><link rel="modulepreload" href="chunk-75JQ3JYM.js"><script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-ZSJWI736.js" type="module"></script></body>
 </html>
 `;
